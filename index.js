@@ -16,6 +16,7 @@ function writeCards(array, events) {
 // only pass positive integers here
 function countDown(integer) {
   let i = integer;
+  debugger;
   while (i >= 0) {
     console.log(i--);
   }
